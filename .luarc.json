@@ -56,5 +56,8 @@
         "/Users/madhurtoppo/.local/share/nvim/lazy/neoconf.nvim/types",
         "/Users/madhurtoppo/.local/share/nvim/lazy/neoconf.nvim/types/lua",
         "${3rd}/luv/library"
+    ],
+    "diagnostics.globals": [
+        "HotPink1"
     ]
 }
