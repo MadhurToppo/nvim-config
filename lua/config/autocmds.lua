@@ -3,4 +3,6 @@
 -- Add any additional autocmds here
 if vim.fn.argc(-1) == 0 then
   vim.cmd("Neotree")
+  vim.cmd("set norelativenumber")
+  vim.cmd("set nonumber")
 end
