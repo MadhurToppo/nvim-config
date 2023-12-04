@@ -3,6 +3,10 @@ return {
   --  https://github.com/Zeioth/markmap.nvim
   {
     "Zeioth/markmap.nvim",
+    keys = {
+      { "<leader>mw", "<cmd>MarkmapWatch<CR>", desc = "Markmap Watch" },
+      { "<leader>ms", "<cmd>MarkmapWatchStop<CR>", desc = "Markmap Watch stop" },
+    },
     build = "yarn global add markmap-cli",
     cmd = { "MarkmapOpen", "MarkmapSave", "MarkmapWatch", "MarkmapWatchStop" },
     opts = {
