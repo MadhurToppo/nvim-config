@@ -1,7 +1,7 @@
 return {
   {
     "catppuccin/nvim",
-    lazy = true,
+    lazy = false,
     name = "catppuccin",
     -- you can do it like this with a config function
     config = function()
@@ -44,7 +44,7 @@ return {
           gitsigns = true,
           nvimtree = true,
           treesitter = true,
-          notify = false,
+          notify = true,
           mini = {
             enabled = true,
             indentscope_color = "",
