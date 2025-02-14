@@ -7,6 +7,11 @@ return {
         sidebars = "transparent",
         floats = "transparent",
       },
+      on_highlights = function(hl, c)
+        hl.Folded = { bg = "NONE", fg = "NONE" }
+        hl.LineNrAbove = { fg = "SeaGreen3" }
+        hl.LineNrBelow = { fg = "HotPink1" }
+      end,
     },
   },
 }

@@ -6,4 +6,7 @@ debug
 foo.*
 *.log
 data
+<<<<<<< HEAD
 .DS_Store
+=======
+>>>>>>> 4e034ea (New lazy vim installation)
