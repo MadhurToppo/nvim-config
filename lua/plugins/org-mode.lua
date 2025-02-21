@@ -8,12 +8,17 @@ return {
       org_default_notes_file = "~/workspace/journal/refile.org",
       org_todo_keywords = { "TODO", "SCHEDULED", "ACTIVE", "PAUSED", "|", "DONE", "DECLINED" },
       org_todo_keyword_faces = {
-        TODO = ":foreground red", -- overrides builtin color for `TODO` keyword
-        SCHEDULED = ":foreground yellow", -- overrides builtin color for `TODO` keyword
-        ACTIVE = ":foreground magenta", -- overrides builtin color for `TODO` keyword
-        PAUSED = ":foreground violet", -- overrides builtin color for `TODO` keyword
-        DONE = ":foreground green", -- overrides builtin color for `TODO` keyword
-        DECLINED = ":foreground green", -- overrides builtin color for `TODO` keyword
+        TODO = ":foreground red",
+        SCHEDULED = ":foreground yellow",
+        ACTIVE = ":foreground magenta",
+        PAUSED = ":foreground violet",
+        DONE = ":foreground green",
+        DECLINED = ":foreground green",
+      },
+      mappings = {
+        org = {
+          org_toggle_checkbox = "<leader>ca",
+        },
       },
     })
   end,
