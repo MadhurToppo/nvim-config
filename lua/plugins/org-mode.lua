@@ -12,7 +12,7 @@ return {
         ACTIVE = ":foreground magenta",
         PAUSED = ":foreground violet",
         DONE = ":foreground green",
-        DECLINED = ":foreground blue",
+        DECLINED = ":foreground turquoise",
       },
       mappings = {
         org = {
