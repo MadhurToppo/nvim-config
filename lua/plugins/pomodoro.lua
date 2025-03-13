@@ -12,12 +12,14 @@ return {
     sessions = {
       -- Example session configuration for a session called "pomodoro".
       pomodoro = {
-        { name = "dev", duration = "60m" },
-        { name = "Short Break", duration = "10m" },
-        { name = "dev", duration = "60m" },
-        { name = "Short Break", duration = "10m" },
-        { name = "dev", duration = "60m" },
-        { name = "Long Break", duration = "40m" },
+        { name = "dev", duration = "55m" },
+        { name = "Short Break", duration = "5m" },
+        { name = "dev", duration = "55m" },
+        { name = "Short Break", duration = "5m" },
+        { name = "dev", duration = "55m" },
+        { name = "Short Break", duration = "5m" },
+        { name = "dev", duration = "55m" },
+        { name = "Long Break", duration = "60m" },
       },
     },
   },
