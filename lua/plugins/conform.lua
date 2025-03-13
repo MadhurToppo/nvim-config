@@ -4,6 +4,7 @@ return {
     optional = true,
     opts = {
       formatters_by_ft = {
+        ["java"] = { "google-java-format" },
         ["javascript"] = { "prettier" },
         ["javascriptreact"] = { "prettier" },
         ["typescript"] = { "prettier" },
