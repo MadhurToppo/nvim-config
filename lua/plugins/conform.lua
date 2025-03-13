@@ -3,6 +3,11 @@ return {
     "stevearc/conform.nvim",
     optional = true,
     opts = {
+      formatters = {
+        ["google-java-format"] = {
+          prepend_args = { "--aosp" }, -- Ensure 4-space indentation
+        },
+      },
       formatters_by_ft = {
         ["java"] = { "google-java-format" },
         ["javascript"] = { "prettier" },
